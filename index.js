@@ -10,8 +10,10 @@ const bodyParser = require('body-parser')
 //   origin: ['https://example.com']
 // }
 
+
+//https://example.com
 app.use(cors({
-  origin: 'https://example.com', // Allow only this domain
+  origin: 'http://localhost:3000', // Allow only this domain
 }));
 
 
